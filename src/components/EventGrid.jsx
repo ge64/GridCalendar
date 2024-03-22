@@ -1,37 +1,43 @@
 import React from 'react';
 import { Box, Image, Text, Badge, Button, Grid, GridItem, useColorModeValue } from '@chakra-ui/react';
+import styles from './EventGrid.module.css';
 
 const EventGrid = ({ events }) => {
     const bgColor = useColorModeValue('white', 'gray.800');
     const textColor = useColorModeValue('gray.600', 'white');
     const shadow = useColorModeValue('lg', 'dark-lg');
+    const getImageUrl = (imageName) => {
+        return `/${imageName}`;
+    };
 
     return (
-        <Grid templateColumns="repeat(auto-fit, minmax(300px, 1fr))" gap={6} p={6}>
+        <Grid className={styles.gridContainer}>
             {events.map((event, index) => (
-                <GridItem key={event.id} bg={bgColor} borderRadius="lg" overflow="hidden" boxShadow="md" transition="all 0.3s">
-                    <Image src={event.imageUrl} alt={event.name} objectFit="cover" width="100%" height="200px" borderTopRadius="lg" />
+                <GridItem key={event.id} className={styles.eventCard}>
 
-                    <Box p={5}>
-                        <Text fontWeight="600" fontSize="xl" mb={2} color={textColor}>{event.name}</Text>
-                        <Text fontSize="sm" mb={4} color="gray.500">{event.date} • {event.time}</Text>
-                        <Text mb={1} fontWeight="500">Location: {event.location}</Text>
-                        <Text mb={1} fontWeight="500">Organizer: {event.organizer}</Text>
-                        <Text mb={4} fontWeight="500">{event.attendees} attendees</Text>
+                    <Image src={getImageUrl(event.imageUrl)} alt="Event" className={styles.eventImage} />
 
-                        <Button width="full" mt={2} colorScheme="purple" variant="solid" _hover={{ bg: 'purple.600' }}>
+                    <Box className={styles.eventInfo}>
+                        <Text className={styles.eventTitle}>{event.name}</Text>
+                        <Text className={styles.eventDate}>{event.date} • {event.time}</Text>
+                        <Text className={styles.eventLocation}>Location: {event.location}</Text>
+                        <Text className={styles.eventOrganizer}>Organizer: {event.organizer}</Text>
+                        <Text className={styles.eventAttendees}>{event.attendees} attendees</Text>
+
+                        <Button className={styles.learnMoreBtn}>
                             Learn More
                         </Button>
                     </Box>
 
                     {event.isFull && (
-                        <Badge position="absolute" top="2" right="2" colorScheme="red">
+                        <Badge className={styles.eventBadge} position="absolute" top="2" right="2" colorScheme="red">
                             Almost Full
                         </Badge>
                     )}
                 </GridItem>
             ))}
         </Grid>
+
     );
 };
 

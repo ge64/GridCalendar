@@ -5,17 +5,17 @@
     "date": "2024-05-18",
     "time": "14:00",
     "location": "Magnolia Landing",
-    "imageUrl": "data/images/azoriousGate.jpg",
+    "imageUrl": "seaGate.jpg",
     "organizer": "MFB Productions",
     "attendees": 150
   },
   {
     "id": "event-2",
-    "name": "Affordable Art Fair NYC Spring 2024",
+    "name": "Affordable Art Fair NYC",
     "date": "2024-03-21",
     "time": "18:00",
     "location": "Metropolitan Pavilion",
-    "imageUrl": "/images/borosGate.jpg",
+    "imageUrl": "borosGate.jpg",
     "organizer": "Affordable Art Fair NYC",
     "attendees": 200
   },
@@ -25,7 +25,7 @@
     "date": "2024-09-10",
     "time": "10:00",
     "location": "Brooklyn Borough Hall",
-    "imageUrl": "/images/dimirGate.jpg",
+    "imageUrl": "dimirGate.jpg",
     "organizer": "Brooklyn Literary Council",
     "attendees": 500
   },
@@ -35,7 +35,7 @@
     "date": "2024-04-15",
     "time": "07:00",
     "location": "Central Park",
-    "imageUrl": "/images/golgariGate.jpg",
+    "imageUrl": "golgariGate.jpg",
     "organizer": "NY Road Runners",
     "attendees": 3000
   },
@@ -45,7 +45,7 @@
     "date": "2024-05-25",
     "time": "18:00",
     "location": "Flushing Meadows Corona Park",
-    "imageUrl": "/images/gruulGate.jpg",
+    "imageUrl": "gruulGate.jpg",
     "organizer": "Queens Economic Development Corporation",
     "attendees": 200
   },
@@ -55,7 +55,7 @@
     "date": "2024-06-05",
     "time": "19:00",
     "location": "NYU Skirball Center",
-    "imageUrl": "/images/izzetGate.jpg",
+    "imageUrl": "izzetGate.jpg",
     "organizer": "NY Tech Alliance",
     "attendees": 150
   },
@@ -65,7 +65,7 @@
     "date": "2024-08-22",
     "time": "09:00",
     "location": "New York State Fairgrounds",
-    "imageUrl": "/images/orzhovGate.jpg",
+    "imageUrl": "orzhovGate.jpg",
     "organizer": "New York State",
     "attendees": 10000
   },
@@ -75,7 +75,7 @@
     "date": "2024-07-12",
     "time": "20:00",
     "location": "Harlem Parish",
-    "imageUrl": "/images/rakdosGate.jpg",
+    "imageUrl": "rakdosGate.jpg",
     "organizer": "Harlem Jazz Enterprises",
     "attendees": 250
   },
@@ -85,7 +85,7 @@
     "date": "2024-09-13",
     "time": "16:00",
     "location": "Coney Island USA",
-    "imageUrl": "/images/selesnyaGate.jpg",
+    "imageUrl": "selesnyaGate.jpg",
     "organizer": "Coney Island USA",
     "attendees": 100
   },
@@ -95,7 +95,7 @@
     "date": "2024-05-30",
     "time": "11:00",
     "location": "Staten Island Mall",
-    "imageUrl": "/images/simicGate.jpg",
+    "imageUrl": "simicGate.jpg",
     "organizer": "SI Foodie Association",
     "attendees": 400
   }
