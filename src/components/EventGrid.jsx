@@ -18,6 +18,16 @@ const EventGrid = ({ events }) => {
         setOpen(true);
     };
     const onCloseModal = () => setOpen(false);
+    const closeIcon = (
+        <svg fill="currentColor" viewBox="0 0 30 30" width={28} height={28}>
+            <path
+                fill="#ccc9c4"
+                fillRule="evenodd"
+                d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+                clipRule="evenodd"
+            ></path>
+        </svg>
+    );
 
     const getImageUrl = (imageName) => {
         return `/${imageName}`;
@@ -51,7 +61,7 @@ const EventGrid = ({ events }) => {
                 </GridItem>
             ))}
             {currentEvent && (
-                <Modal open={open} onClose={onCloseModal} center classNames={{
+                <Modal open={open} onClose={onCloseModal} center closeIcon={closeIcon} classNames={{
                     modal: styles.modalContainer,
                     overlay: styles.modalOverlay,
                     closeButton: styles.modalCloseButton
@@ -59,6 +69,7 @@ const EventGrid = ({ events }) => {
                     <div className={styles.modalContent}>
                         {/* Use the current event's details for the modal content */}
                         <h1 className={styles.modalTitle}>{currentEvent.name}</h1>
+                        <Image src={getImageUrl(currentEvent.imageUrl)} alt="Event" className={styles.modalImage} />
                         <h3 className={styles.modalText}>{currentEvent.date} • {currentEvent.time}</h3>
                         <h4 className={styles.eventLocation}>Location: {currentEvent.location}</h4>
                         <h4 className={styles.eventOrganizer}>Organizer: {currentEvent.organizer}</h4>
