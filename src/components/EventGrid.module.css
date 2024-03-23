@@ -84,3 +84,51 @@ body {
 .learnMoreBtn:hover {
     background-color: #319795;
 }
+
+.modalTitle {
+    color: #ccc9c4;
+    font-family: Calibri;
+    font-weight: bolder;
+}
+.modalText {
+    color: #ccc9c4;
+    font-family: Calibri;
+}
+
+
+
+.modalCloseButton {
+    color: #ccc9c4;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    z-index: 1050; /* Ensure it's above other modal content */
+}
+.react-responsive-modal-overlay{
+    /*opacity: 75%;*/
+}
+.modalContent {
+    padding: 20px;
+    background-color: #212121;
+    font-family: Calibri;
+}
+.modalContainer {
+    background-color: #212121;
+    border-radius: 25px;
+}
+.modalOverlay {
+    color: #212121;
+    background-color: rgba(0, 0, 0, 0.4) !important
+}
+
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    .modalContainer {
+        width: 100vw !important;
+        height: 100vh !important;
+        max-width: 100vw !important;
+        max-height: 100vh !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border-radius: 0 !important; /* Optional: removes border radius */
+    }
+}

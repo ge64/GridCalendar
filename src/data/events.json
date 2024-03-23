@@ -5,9 +5,10 @@
     "date": "2024-05-18",
     "time": "14:00",
     "location": "Magnolia Landing",
-    "imageUrl": "seaGate.jpg",
+    "imageUrl": "azoriousGate.jpg",
     "organizer": "MFB Productions",
-    "attendees": 150
+    "attendees": 150,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit risus, sed porttitor quam."
   },
   {
     "id": "event-2",
@@ -17,7 +18,8 @@
     "location": "Metropolitan Pavilion",
     "imageUrl": "borosGate.jpg",
     "organizer": "Affordable Art Fair NYC",
-    "attendees": 200
+    "attendees": 200,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit risus, sed porttitor quam."
   },
   {
     "id": "event-3",
@@ -27,7 +29,8 @@
     "location": "Brooklyn Borough Hall",
     "imageUrl": "dimirGate.jpg",
     "organizer": "Brooklyn Literary Council",
-    "attendees": 500
+    "attendees": 500,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit risus, sed porttitor quam."
   },
   {
     "id": "event-4",
@@ -37,7 +40,8 @@
     "location": "Central Park",
     "imageUrl": "golgariGate.jpg",
     "organizer": "NY Road Runners",
-    "attendees": 3000
+    "attendees": 3000,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit risus, sed porttitor quam."
   },
   {
     "id": "event-5",
@@ -47,7 +51,8 @@
     "location": "Flushing Meadows Corona Park",
     "imageUrl": "gruulGate.jpg",
     "organizer": "Queens Economic Development Corporation",
-    "attendees": 200
+    "attendees": 200,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit risus, sed porttitor quam."
   },
   {
     "id": "event-6",
@@ -57,7 +62,8 @@
     "location": "NYU Skirball Center",
     "imageUrl": "izzetGate.jpg",
     "organizer": "NY Tech Alliance",
-    "attendees": 150
+    "attendees": 150,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit risus, sed porttitor quam."
   },
   {
     "id": "event-7",
@@ -67,7 +73,8 @@
     "location": "New York State Fairgrounds",
     "imageUrl": "orzhovGate.jpg",
     "organizer": "New York State",
-    "attendees": 10000
+    "attendees": 10000,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit risus, sed porttitor quam."
   },
   {
     "id": "event-8",
@@ -77,7 +84,8 @@
     "location": "Harlem Parish",
     "imageUrl": "rakdosGate.jpg",
     "organizer": "Harlem Jazz Enterprises",
-    "attendees": 250
+    "attendees": 250,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit risus, sed porttitor quam."
   },
   {
     "id": "event-9",
@@ -87,7 +95,8 @@
     "location": "Coney Island USA",
     "imageUrl": "selesnyaGate.jpg",
     "organizer": "Coney Island USA",
-    "attendees": 100
+    "attendees": 100,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit risus, sed porttitor quam."
   },
   {
     "id": "event-10",
@@ -97,6 +106,7 @@
     "location": "Staten Island Mall",
     "imageUrl": "simicGate.jpg",
     "organizer": "SI Foodie Association",
-    "attendees": 400
+    "attendees": 400,
+    "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet hendrerit risus, sed porttitor quam."
   }
 ]
